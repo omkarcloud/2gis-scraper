@@ -1,0 +1,1 @@
+{"meta": {"api_version": "3.0.22125", "code": 400, "error": {"message": "Param 'sort' is invalid. Value 'bogus' is outside of allowed values: 'flamp_rating','distance_without_ads','relevance','creation_time','distance','rating','opened_time','name'", "type": "paramIsOutsideSet"}, "issue_date": "20261121"}}

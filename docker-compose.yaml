@@ -1,0 +1,10 @@
+services:
+  2gis-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # No proxy needed: 2GIS answers from your own connection.
+      # - TWO_GIS_PROXY=http://user:pass@host:port
